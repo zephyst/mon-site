@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Linus Blairon</title>
+    <link rel="stylesheet" href="./src/style.css">
+
+    <script src="src/app.js" defer></script>
+
+</head>
+<body>
+
+<nav>
+    <div class="navbar-left" style="width: 100%">
+        <h3>Linus Blairon</h3>
+    </div>
+
+    <div class="navbar-right" style="width: 100%">
+        <a class="mr" href="#QuiSuisJe">Qui suis-je ?</a>
+        <a href="#MonExperience">Mon expérience</a>
+    </div>
+</nav>
+
+<section id="heroBanner">
+
+    <div id="circle" class="circle"></div>
+    <div class="circle fixedCircle" id="fixedCircle"></div>
+
+    <div class="hero">
+        <h1 class="hero-title">Je suis étudiant <br>motivé</h1>
+        <div>
+            <p>
+                <object data="./src/images/svg/pythonLogo.svg" class="inline-object" width="20px" height="20px" style="margin-right: 1%"></object> Python
+                <object data="./src/images/svg/palette.svg" class="inline-object" width="15px" height="15px" style="margin-right: 1%; margin-left: 5%"></object> Web Design
+            </p>
+        </div>
+    </div>
+
+</section>
+<div class="scrollable"  style="overflow-y:hidden; height: 1900px;">
+    <div class="EnSavoirPlus">
+        <a href="#QuiSuisJe">En savoir plus</a>
+    </div>
+    <div class="mt">
+        <div id="QuiSuisJe">
+            <h2 class="QuiSuisJe">Qui suis-je ?</h2>
+            <img src="./src/images/Moi2.jpg" style="position: absolute">
+            <p class="QSJ">Bonjour ! Je suis Linus, un élève de terminale générale. Je fais les spécialités NSI (numérique science informatique) et AMC (anglais monde contemporain).
+                Depuis toujours, j'aime observer et comprendre comment fonctionnent les choses.
+
+            </p>
+        </div>
+        <div id="MonExperience">
+            <h2 class="MonExperience">Mon Experience</h2>
+            <p class="ME"> Je me suis toujours intéressé au développement. J'ai fait mon premier jeu à 11 ans sur scratch
+                <a class="ME2" href="https://scratch.mit.edu/projects/155731558/"> vous pouvez le voir ici</a>.
+                J'ai des bonnes bases en CSS, HTML, python, et SQL grâce à la spécialité NSI. <br><br>
+                J'ai eu un projet de jeu vidéo (qui n'a pas abouti), au cours du quel j'ai fais le design. Voici quelques exemples :</p>
+                <div class="grid-container">
+                    <embed class="melee" type="video/webm" src="./src/images/melee.mp4">
+                    <embed class="deagle" type="image/jpg" src="./src/images/Deagle.png">
+                    <embed class="balle" type="image/jpg" src="./src/images/Balle.png">
+                    <embed class="porte" type="image/jpg" src="./src/images/Porte.png">
+                </div>
+            <br>
+            <p  class="ME">J'ai été assistant design sur un escape game numérique, développé pour le CNFPT (Centre Nationale de la Fonction Publique Territoriale).
+                Notamment pour le sound design, expérience joueur
+                (Sur Articulate 360).
+                <a style="font-weight: 500" href="https://360.articulate.com/review/content/318ba02f-a63f-4878-a091-b69dbc9fdd2d/review">Vous pouvez le voir ici</a>, et voici les codes pour l'explorer :
+                UNITED
+                <embed class="code1" type="image/jpg" src="./src/images/code.png">
+                <embed class="code2" type="image/jpg" src="./src/images/code2.png">
+                <br>
+                Toujours en collaboration avec le CNFPT, j'ai créé un serveur discord pour le MOOC Innovation publique territoriale du CNFPT, ce qui a été mentionné dans le livre
+                "Mooc : engagement et apprentissage". L'Harmattan. p 108.
+            </p>
+            <div id="livre" class="grid-container">
+                <embed class="livre" src="./src/images/livre.png" type="image/jpg">
+                <embed class="livre_2" src="./src/images/livre_2.png" type="image/jpg">
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
